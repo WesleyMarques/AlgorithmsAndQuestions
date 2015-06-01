@@ -1,6 +1,6 @@
-/*The algorithm search the max longest increasing subsequence of a list
-*/
-def(A,N):
+#The algorithm search the max longest increasing subsequence of a list
+
+def SSCMax(A,N):
 	c = [0 for i in range(N)]
 	for m in range(N):
 		c[m] = 1
