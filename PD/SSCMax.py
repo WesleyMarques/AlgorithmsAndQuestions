@@ -8,3 +8,4 @@ def SSCMax(A,N):
 			if A[i] <= A[m] and c[i]+1 > c[m]:
 				c[m] = c[i]+1
 	return c	
+
